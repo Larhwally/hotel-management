@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/mojaveos/.dotnet/store/|arch|/|tfm|",
+      "/Users/mojaveos/.nuget/packages"
+    ]
+  }
+}

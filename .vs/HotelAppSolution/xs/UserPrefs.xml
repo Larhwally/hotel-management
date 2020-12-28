@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{105BFCC4-07B3-4C79-AAA5-10003423A0D0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HotelApi/Data/HotelContext.cs">
+    <Files>
+      <File FileName="HotelApi/Models/Room.cs" Line="5" Column="6" />
+      <File FileName="HotelApi/Models/CheckIn.cs" />
+      <File FileName="HotelApi/Data/HotelContext.cs" Line="29" Column="1" />
+      <File FileName="HotelApi/Controllers/RoomController.cs" />
+      <File FileName="HotelApp/Startup.cs" />
+      <File FileName="HotelApp/appsettings.json" />
+      <File FileName="HotelApi/Startup.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="HotelAppSolution" expanded="True">
+            <Node name="HotelApi" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="HotelContext.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+            </Node>
+            <Node name="HotelApp" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.HotelApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.HotelApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/mojaveos/Projects/HotelAppSolution/HotelApi/Data/HotelContext.cs" relfile="HotelApi/Data/HotelContext.cs" line="28" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
