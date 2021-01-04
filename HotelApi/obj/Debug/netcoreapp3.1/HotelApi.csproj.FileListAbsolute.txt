@@ -32,3 +32,38 @@
 /Users/mojaveos/Projects/HotelAppSolution/HotelApi/bin/Debug/netcoreapp3.1/System.Xml.XPath.XmlDocument.dll
 /Users/mojaveos/Projects/HotelAppSolution/HotelApi/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
 /Users/mojaveos/Projects/HotelAppSolution/HotelApi/obj/Debug/netcoreapp3.1/HotelApi.csproj.CopyComplete
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\bin\Debug\netcoreapp3.1\appsettings.json
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\bin\Debug\netcoreapp3.1\HotelApi.exe
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\bin\Debug\netcoreapp3.1\HotelApi.deps.json
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\bin\Debug\netcoreapp3.1\HotelApi.runtimeconfig.json
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\bin\Debug\netcoreapp3.1\HotelApi.runtimeconfig.dev.json
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\bin\Debug\netcoreapp3.1\HotelApi.dll
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\bin\Debug\netcoreapp3.1\HotelApi.pdb
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.dll
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\bin\Debug\netcoreapp3.1\K4os.Compression.LZ4.Streams.dll
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\bin\Debug\netcoreapp3.1\K4os.Hash.xxHash.dll
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\bin\Debug\netcoreapp3.1\Renci.SshNet.dll
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\bin\Debug\netcoreapp3.1\SshNet.Security.Cryptography.dll
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\bin\Debug\netcoreapp3.1\System.Xml.XPath.XmlDocument.dll
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\obj\Debug\netcoreapp3.1\HotelApi.csprojAssemblyReference.cache
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\obj\Debug\netcoreapp3.1\HotelApi.AssemblyInfoInputs.cache
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\obj\Debug\netcoreapp3.1\HotelApi.AssemblyInfo.cs
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\obj\Debug\netcoreapp3.1\HotelApi.csproj.CoreCompileInputs.cache
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\obj\Debug\netcoreapp3.1\HotelApi.MvcApplicationPartsAssemblyInfo.cache
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\obj\Debug\netcoreapp3.1\staticwebassets\HotelApi.StaticWebAssets.Manifest.cache
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\obj\Debug\netcoreapp3.1\staticwebassets\HotelApi.StaticWebAssets.xml
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\obj\Debug\netcoreapp3.1\scopedcss\bundle\HotelApi.styles.css
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\obj\Debug\netcoreapp3.1\HotelApi.RazorTargetAssemblyInfo.cache
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\obj\Debug\netcoreapp3.1\HotelApi.csproj.CopyComplete
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\obj\Debug\netcoreapp3.1\HotelApi.dll
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\obj\Debug\netcoreapp3.1\HotelApi.pdb
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApi\obj\Debug\netcoreapp3.1\HotelApi.genruntimeconfig.cache

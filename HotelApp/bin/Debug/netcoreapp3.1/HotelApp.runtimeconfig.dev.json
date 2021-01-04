@@ -1,8 +1,9 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/Users/mojaveos/.dotnet/store/|arch|/|tfm|",
-      "/Users/mojaveos/.nuget/packages"
+      "C:\\Users\\lawal\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\lawal\\.nuget\\packages",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
 }
