@@ -36,7 +36,7 @@ namespace HotelApi.Data
                     rooms.Add(new Room()
                     {
                         itbId = Convert.ToInt32(reader["itbId"]),
-                        roomNumber = Convert.ToInt32(reader["roomNumber"]),
+                        roomNumber = (reader["roomNumber"]).ToString(),
                         roomStatus = reader["roomStatus"].ToString()
                     });
                 }
@@ -59,6 +59,58 @@ namespace HotelApi.Data
             int n = command.ExecuteNonQuery();
             return n > 0;
         }
+
+
+        //A method to get room detail by id
+        //public async Task<Dictionary<string, object>> GetRoomById(int id)
+        //{
+        //    Dictionary<string, object> result = new Dictionary<string, object>();
+        //    using (MySqlConnection connection = GetConnection())
+        //    {
+        //        connection.Open();
+        //        MySqlCommand command = new MySqlCommand("SELECT * FROM tbl_room WHERE itbId = " + id, connection);
+        //        command.Parameters.AddWithValue("@itbId", id);
+
+        //        await using var reader = command.ExecuteReader();
+        //        while (reader.Read())
+        //        {
+        //            for (int i = 0; i < reader.FieldCount; i++)
+        //            {
+        //                result.Add(reader.GetName(i), reader.GetValue(i)); 
+        //            }
+        //        }
+
+        //    }
+        //    return result;
+            
+        //}
+
+        //-------------------------------Rewrite this method-----------------------------
+        public async Task<Room> GetRoomById(int id)
+        {
+            Room room = new Room();
+            Dictionary<string, object> result = new Dictionary<string, object>();
+            using (MySqlConnection connection = GetConnection())
+            {
+                connection.Open();
+                MySqlCommand command = new MySqlCommand("SELECT * FROM tbl_room WHERE itbId = " + id, connection);
+                command.Parameters.AddWithValue("@itbId", id);
+
+                await using var reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    {
+                        room.itbId = Convert.ToInt32(reader["itbId"]);
+                        room.roomNumber = (reader["roomNumber"]).ToString();
+                        room.roomStatus = reader["roomStatus"].ToString();
+                    };
+                }
+
+            }
+            return room;
+
+        }
+
 
     }
 }
