@@ -28,7 +28,7 @@ namespace HotelApi.Data
             using(MySqlConnection connection = GetConnection())
             {
                 connection.Open();
-                MySqlCommand command = new MySqlCommand("Select * from tbl_room", connection);
+                MySqlCommand command = new MySqlCommand("SELECT * FROM tbl_room ", connection);
 
                 await using var reader = command.ExecuteReader();
                 while (reader.Read())
@@ -85,7 +85,7 @@ namespace HotelApi.Data
             
         //}
 
-        //-------------------------------Rewrite this method-----------------------------
+        //-------------------------------Rewrote this method-----------------------------
         public async Task<Room> GetRoomById(int id)
         {
             Room room = new Room();
@@ -109,6 +109,22 @@ namespace HotelApi.Data
             }
             return room;
 
+        }
+
+
+        //A method to update a room to change status to book room
+        public async Task<bool> UpdateRoom(Room room)
+        {
+            await using MySqlConnection connection = GetConnection();
+            connection.Open();
+            MySqlCommand command = new MySqlCommand("UPDATE tbl_room SET roomStatus = @roomStatus WHERE itbId = " + room.itbId, connection);
+
+            command.Parameters.AddWithValue("@itbId", room.itbId);
+            command.Parameters.AddWithValue("@roomNumber", room.roomNumber);
+            command.Parameters.AddWithValue("@roomStatus", room.roomStatus);
+
+            int n = command.ExecuteNonQuery();
+            return n > 0;
         }
 
 

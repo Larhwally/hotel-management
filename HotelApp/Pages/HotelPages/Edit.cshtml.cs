@@ -20,11 +20,12 @@ namespace HotelApp.Pages.HotelPages
         [BindProperty]
         public Room room { get; set; }
 
-        public async Task<Room> OnGet(int id)
+        public async Task OnGet(int id)
         {
             //Dictionary<string, object> result = new Dictionary<string, object>();
             room = await context.GetRoomById(id);
-            return room;
+            //Console.WriteLine(room);
+            //return room;
         }
 
         public async Task<IActionResult> OnPost()
@@ -36,7 +37,7 @@ namespace HotelApp.Pages.HotelPages
 
                 roomById.roomNumber = room.roomNumber;
                 roomById.roomStatus = room.roomStatus;
-                await context.PostRoom(room);
+                await context.UpdateRoom(room);
 
                 return RedirectToPage("Index");
             }

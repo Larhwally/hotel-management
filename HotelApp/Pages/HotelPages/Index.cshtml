@@ -36,7 +36,8 @@
                                 @Html.DisplayFor(m => item.roomStatus)
                             </td>
                             <td>
-                                <button asp-page-handler="Edit" asp-route-id="@item.itbId" class="btn btn-success btn-sm text-white">Book room</button>
+                                @*<button asp-page-handler="Edit" asp-route-id="@item.itbId" class="btn btn-success btn-sm text-white">Book room</button>*@
+                                <a asp-page="Edit" asp-route-id="@item.itbId" class="btn btn-success btn-sm text-white">Book room</a>
                             </td>
                         </tr>
                     }
