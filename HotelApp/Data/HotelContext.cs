@@ -20,7 +20,7 @@ namespace HotelApi.Data
             return new MySqlConnection(ConnectionString);
         }
 
-        //A method to get the list of all rooms
+        //A method to get the list of all available rooms
         public async Task <List<Room>> GetRooms()
         {
             List<Room> rooms = new List<Room>();
@@ -28,7 +28,31 @@ namespace HotelApi.Data
             using(MySqlConnection connection = GetConnection())
             {
                 connection.Open();
-                MySqlCommand command = new MySqlCommand("SELECT * FROM tbl_room ", connection);
+                MySqlCommand command = new MySqlCommand("SELECT * FROM tbl_room WHERE roomStatus = \"available\"", connection);
+
+                await using var reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    rooms.Add(new Room()
+                    {
+                        itbId = Convert.ToInt32(reader["itbId"]),
+                        roomNumber = (reader["roomNumber"]).ToString(),
+                        roomStatus = reader["roomStatus"].ToString()
+                    });
+                }
+            }
+            return rooms;
+        }
+
+        //A method to get list of all booked rooms
+        public async Task<List<Room>> GetBookedRooms()
+        {
+            List<Room> rooms = new List<Room>();
+
+            using (MySqlConnection connection = GetConnection())
+            {
+                connection.Open();
+                MySqlCommand command = new MySqlCommand("SELECT * FROM tbl_room WHERE roomStatus = \"booked\"", connection);
 
                 await using var reader = command.ExecuteReader();
                 while (reader.Read())

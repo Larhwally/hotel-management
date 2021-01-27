@@ -1,18 +1,14 @@
 ﻿@page
-@model HotelApp.Pages.HotelPages.IndexModel
+@model HotelApp.Pages.HotelPages.BookedModel
+@{
+}
 
 <br />
 <div class="container row p-0 m-0">
-    <div class="col-6">
+    <div class="col-12">
         <h2 class="text-info">Room List</h2>
     </div>
-    <div class="col-3">
-        <a asp-page="Create" class="btn btn-info form-control text-white">Add new room</a>
-    </div>
-    <div class="col-3">
-        <a asp-page="Booked" class="btn btn-info form-control text-white">Check out</a>
-    </div>
-
+   
     <div class="col-12 border p-3 mt-3">
         <form method="post">
             @if (Model.Rooms.Count() > 0)
@@ -40,16 +36,16 @@
                             </td>
                             <td>
                                 @*<button asp-page-handler="Edit" asp-route-id="@item.itbId" class="btn btn-success btn-sm text-white">Book room</button>*@
-                                <a asp-page="Edit" asp-route-id="@item.itbId" class="btn btn-success btn-sm text-white">Book room</a>
+                                <a asp-page="Edit" asp-route-id="@item.itbId" class="btn btn-success btn-sm text-white">Check out</a>
                             </td>
                         </tr>
                     }
                 </table>
             }
             else
-	        {
-	                 <p>No rooms available</p>
-	        }
+            {
+                <p>No rooms available</p>
+            }
         </form>
     </div>
 

@@ -404,3 +404,4 @@ C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApp\bin\Debug\
 C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApp\obj\Debug\netcoreapp3.1\HotelApp.MvcApplicationPartsAssemblyInfo.cs
 C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApp\obj\Debug\netcoreapp3.1\Razor\Pages\HotelPages\Create.cshtml.g.cs
 C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApp\obj\Debug\netcoreapp3.1\Razor\Pages\HotelPages\Edit.cshtml.g.cs
+C:\MYPROJECTS\.NET Core Tut\TutorialNetCore\hotel-management\HotelApp\obj\Debug\netcoreapp3.1\Razor\Pages\HotelPages\Booked.cshtml.g.cs
