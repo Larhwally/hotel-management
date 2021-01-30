@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7J4D5+nZ0zNfV/XXFewHOQAxA+8+WJZ23doj+/yi6OTyIo5UUf0XmNLXpJhN+qwVXl+TY8HubLfS7fBDtKA8+A==",
+  "dgSpecHash": "n058TsXj17+XS5IOx0/HstC4kkhB6HV4jLWYcJt0XZYPVDdEYRIT+TGPZwJfDzUb/EyQRkuOQwzBYQuOsKiRQw==",
   "success": true,
   "projectFilePath": "C:\\MYPROJECTS\\.NET Core Tut\\TutorialNetCore\\hotel-management\\HotelApp\\HotelApp.csproj",
   "expectedPackageFiles": [
@@ -103,8 +103,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.0.1\\system.xml.xmldocument.4.0.1.nupkg.sha512",
     "C:\\Users\\lawal\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
-    "C:\\Users\\lawal\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
-    "C:\\Users\\lawal\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+    "C:\\Users\\lawal\\.nuget\\packages\\system.xml.xpath.xmldocument\\4.0.1\\system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
   ],
   "logs": []
 }
