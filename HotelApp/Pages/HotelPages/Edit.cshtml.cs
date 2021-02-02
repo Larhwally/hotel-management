@@ -24,8 +24,7 @@ namespace HotelApp.Pages.HotelPages
         {
             //Dictionary<string, object> result = new Dictionary<string, object>();
             room = await context.GetRoomById(id);
-            //Console.WriteLine(room);
-            //return room;
+           
         }
 
         public async Task<IActionResult> OnPost()
